@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+
+.nav__logo {
+  width: 4rem;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav__item:last-of-type {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--pink);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.nav__item:last-of-type:hover {
+  background: var(--pink);
+}
+
+.nav__link {
+  color: var(--white);
+}
