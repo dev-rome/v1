@@ -1,0 +1,38 @@
+.about__container {
+    animation-delay: 1.5s;
+}
+
+.about__content {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 5rem;
+}
+
+.about__title, .about__tech-title {
+    font-size: 1rem;
+    color: var(--pink);
+    margin-bottom: .5rem;
+}
+
+.about__text {
+    line-height: 1.5;
+    margin-bottom: .9rem;
+}
+
+.about__tech-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.about__tech-item {
+    font-size: .9rem;
+}
+
+.about__tech-item i {
+    margin-right: .5rem;
+    color: var(--pink);
+}
+
+.about__image {
+    width: 100%;
+}
