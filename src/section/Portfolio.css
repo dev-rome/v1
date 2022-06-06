@@ -1,0 +1,47 @@
+.portfolio__container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .portfolio__title {
+    font-size: 1rem;
+    color: var(--pink);
+  }
+  
+  .portfolio__list {
+    display: flex;
+    gap: 3rem;
+    margin: .5rem 0 1rem;
+  }
+  
+  .portfolio__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    justify-items: flex-start;
+  }
+  
+  .portfolio__grid-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .portfolio__grid-image {
+    object-fit: cover;
+    z-index: 1;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .portfolio__grid-image:hover {
+    background-color: var(--black);
+    opacity: 0.2;
+    z-index: 0;
+  }
+  
+  .portfolio__grid-item-title {
+    position: absolute;
+  }
+  
