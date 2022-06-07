@@ -56,3 +56,9 @@
     padding: .4rem;
     background-color: var(--pink);
 }
+
+@media (max-width: 600px) {
+    .portfolio__tech {
+        flex-wrap: wrap;
+    }
+}
