@@ -1,65 +1,131 @@
-import React, { useState, useEffect } from "react";
-import PortfolioList from "../components/PortfolioList";
-import { Featured, Frontend, GeneralAssembly } from "../components/PortfolioData";
-import "./Portfolio.css"
+import React from "react";
+import "./Portfolio.css";
 
 const Portfolio = () => {
-  const [activeTitle, setActiveTitle] = useState("featured");
-  const [portfolioData, setPortfolioData] = useState([]);
-
-  const list = [
-    {
-      id: "featured",
-      title: "Featured",
-    },
-    {
-      id: "frontend",
-      title: "Frontend Mentor",
-    },
-    {
-      id: "general assembly",
-      title: "General Assembly",
-    },
-  ];
-
-  useEffect(() => {
-    if (activeTitle === "featured") {
-      setPortfolioData(Featured);
-    } else if (activeTitle === "frontend") {
-      setPortfolioData(Frontend);
-    } else if (activeTitle === "general assembly") {
-      setPortfolioData(GeneralAssembly);
-    } else {
-      setPortfolioData(Featured);
-    }
-  }, [activeTitle]);
-
   return (
-    <section className="portfolio__container animate__animated animate__fadeInLeft">
-      <h1 className="portfolio__title">Portfolio</h1>
-      <ul className="portfolio__list">
-        {list.map((item) => (
-          <PortfolioList
-            key={item.id}
-            id={item.id}
-            title={item.title}
-            active={activeTitle === item.id}
-            setActiveTitle={setActiveTitle}
-          />
-        ))}
+    <section className="portfolio__container">
+      <h1 className="portfolio__title--small">Portfolio</h1>
+      <ul className="portfolio__list--grid">
+        <li className="portfolio__item">
+          <header>
+            <div className="portfolio--top">
+              <a
+                href="https://eliteeyewebdesign.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-arrow-right-to-bracket portfolio__arrow"></i>
+              </a>
+            </div>
+            <h3 className="portfolio__item--title">
+              <a
+                href="https://eliteeyewebdesign.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="portfolio__item--white"
+              >
+                Elite Eye Web Design
+              </a>
+            </h3>
+            <p className="portfolio__text">
+              Web design company that specializes in creating beautiful,
+              functional websites for small to large businesses.
+            </p>
+          </header>
+          <footer>
+            <ul className="portfolio__tech">
+              <li className="portfolio__tech-item">WordPress</li>
+              <li className="portfolio__tech-item">JavaScript</li>
+              <li className="portfolio__tech-item">HTML/CSS</li>
+            </ul>
+          </footer>
+        </li>
+
+        <li className="portfolio__item">
+          <header>
+            <div className="portfolio--top">
+              <a
+                href="https://github.com/dev-rome/dev-rome.github.io"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github portfolio__github"></i>
+              </a>
+              <a
+                href="https://dev-rome.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-arrow-right-to-bracket portfolio__arrow"></i>
+              </a>
+            </div>
+            <h3 className="portfolio__item--title">
+              <a
+                href="https://dev-rome.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="portfolio__item--white"
+              >
+                Video Game Trivia
+              </a>
+            </h3>
+            <p className="portfolio__text">
+              Video game trivia is a game app for any player that wants to test
+              their knowledge video games.
+            </p>
+          </header>
+          <footer>
+            <ul className="portfolio__tech">
+              <li className="portfolio__tech-item">API</li>
+              <li className="portfolio__tech-item">JavaScript</li>
+              <li className="portfolio__tech-item">HTML/CSS</li>
+            </ul>
+          </footer>
+        </li>
+
+        <li className="portfolio__item">
+          <header>
+            <div className="portfolio--top">
+              <a
+                href="https://github.com/dev-rome"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github portfolio__github"></i>
+              </a>
+              <a
+                href="https://github.com/dev-rome"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-arrow-right-to-bracket portfolio__arrow"></i>
+              </a>
+            </div>
+            <h3 className="portfolio__item--title">
+              <a
+                href="https://eliteeyewebdesign.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="portfolio__item--white"
+              >
+                Tenant-Estate
+              </a>
+            </h3>
+            <p className="portfolio__text">
+              Tenant-Estate is a home/apartment listing app that allows user to
+              rent or sell their property.
+            </p>
+          </header>
+          <footer>
+            <ul className="portfolio__tech">
+              <li className="portfolio__tech-item">EJS</li>
+              <li className="portfolio__tech-item">JavaScript</li>
+              <li className="portfolio__tech-item">HTML/CSS</li>
+              <li className="portfolio__tech-item">BootStrap</li>
+            </ul>
+          </footer>
+        </li>
       </ul>
-      <div className="portfolio__grid">
-        {portfolioData.map((item) => (
-          <div key={item.id} className="portfolio__grid-item">
-            <img
-              className="portfolio__grid-image"
-              src={item.img}
-              alt={item.title}
-            />
-            <h2 className="portfolio__grid-item-title">{item.title}</h2>
-          </div>
-        ))}
-      </div>
     </section>
   );
 };
