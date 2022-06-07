@@ -1,44 +1,48 @@
 .contact__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact__title--small {
-    font-size: 1rem;
-    color: var(--pink);
+  font-size: 1rem;
+  color: var(--pink);
 }
 
 .contact__title--big {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .contact__text {
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
 }
-    
+
 .contact__btn-container {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .contact__btn {
-    border: 1px solid var(--pink);
-    padding: 0.5rem 1rem;
-    color: var(--white);
-    transition: all 0.3s ease-in;
+  border: 1px solid var(--pink);
+  padding: 0.5rem 1rem;
+  color: var(--white);
+  transition: all 0.3s ease-in;
 }
 
-
-
 .contact__btn:hover {
-    background-color: var(--pink);
-    animation: headShake 1s;
+  background-color: var(--pink);
+  animation: headShake 1s;
 }
 
 .contact__btn-icon {
-    margin-right: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+@media (max-width: 768px) {
+  .contact__text {
+    text-align: center;
+  }
 }
