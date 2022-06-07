@@ -19,6 +19,9 @@ li {
 }
 
 body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: 'Open Sans', sans-serif;
   background-color: var(--black);
   color: var(--white);
@@ -29,4 +32,8 @@ section {
   width: 90%;
   margin: 0 auto;
   padding: 7rem 0;
+}
+
+footer {
+  margin-top: auto;
 }
