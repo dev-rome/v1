@@ -8,9 +8,9 @@ const HeroSection = () => {
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
       strings: [
-        "Front-End Developer",
-        "Full-Stack Developer",
-        "Freelance Web Developer",
+        "Front-End",
+        "Full-Stack",
+        "Freelance",
       ],
       typeSpeed: 50,
       backSpeed: 50,
@@ -27,7 +27,7 @@ const HeroSection = () => {
       <h1 className="hero__title--small">Hi, my name is</h1>
       <h2 className="hero__title--big">Jerome Haynes</h2>
       <h2 className="hero__title--big">
-        I'm a <span ref={typedRef}></span>
+        I'm a <span ref={typedRef}></span>Developer
       </h2>
       <p className="hero__text">
         A Software Engineer who can build a web presence from the ground up

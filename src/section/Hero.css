@@ -43,3 +43,10 @@
 .hero__btn-icon {
     margin-right: 0.3rem;
 }
+
+@media (max-width: 768px) {
+
+    .hero__title--big {
+        font-size: 2rem;
+    }
+}
