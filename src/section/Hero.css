@@ -46,7 +46,11 @@
 
 @media (max-width: 768px) {
 
+    .hero__title--small {
+        font-size: .8rem;
+    }
+
     .hero__title--big {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
