@@ -37,3 +37,10 @@ section {
 footer {
   margin-top: auto;
 }
+
+
+@media (max-width: 1024px) {
+  section {
+    padding: 5rem 0;
+  }
+}
