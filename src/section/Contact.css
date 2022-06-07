@@ -19,15 +19,20 @@
     line-height: 1.5;
     margin-bottom: 1rem;
 }
+    
+.contact__btn-container {
+    display: flex;
+    gap: 1rem;
+}
 
 .contact__btn {
     border: 1px solid var(--pink);
     padding: 0.5rem 1rem;
     color: var(--white);
     transition: all 0.3s ease-in;
-    width: 8rem;
-    text-align: center;
 }
+
+
 
 .contact__btn:hover {
     background-color: var(--pink);
