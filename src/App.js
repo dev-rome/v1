@@ -4,6 +4,7 @@ import IntroSection from "./section/Hero";
 import About from "./section/About";
 import Portfolio from "./section/Portfolio";
 import Contact from "./section/Contact";
+import Footer from "./components/Footer";
 import "./App.css";
 import "animate.css"
 
@@ -19,6 +20,9 @@ const App = () => {
         <Portfolio />
         <Contact />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
