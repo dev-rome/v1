@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0 1rem 2rem;
+    border-top: 1px solid var(--pink);
+}
+
+.footer__social {
+    display: flex;
+    gap: .5rem;
+}
+
+.footer__social-link {
+    color: var(--white);
+}
+
+.footer__social-link:hover {
+    color: var(--pink);
+}
