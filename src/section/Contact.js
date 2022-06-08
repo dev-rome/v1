@@ -27,7 +27,7 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fa-solid fa-link contact__btn-icon"></i>
+            <i className="fa-solid fa-link contact__btn-icon"></i>
             Website
           </a>
         </div>

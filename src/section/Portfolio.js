@@ -16,7 +16,7 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa-solid fa-arrow-right-to-bracket portfolio__arrow"></i>
+                  <i className="fa-solid fa-arrow-right-to-bracket portfolio__arrow"></i>
                 </a>
               </div>
               <h3 className="portfolio__item--title">
@@ -58,7 +58,7 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa-solid fa-arrow-right-to-bracket portfolio__arrow"></i>
+                  <i className="fa-solid fa-arrow-right-to-bracket portfolio__arrow"></i>
                 </a>
               </div>
               <h3 className="portfolio__item--title">
@@ -100,7 +100,7 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa-solid fa-arrow-right-to-bracket portfolio__arrow"></i>
+                  <i className="fa-solid fa-arrow-right-to-bracket portfolio__arrow"></i>
                 </a>
               </div>
               <h3 className="portfolio__item--title">
