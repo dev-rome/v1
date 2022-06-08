@@ -19,7 +19,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="hero__container">
+    <section className="hero__container animate__animated animate__fadeInDown">
       <h1 className="hero__title--small">Hi, my name is</h1>
       <h2 className="hero__title--big">Jerome Haynes</h2>
       <h2 className="hero__title--big">
