@@ -5,7 +5,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 const Contact = () => {
   return (
     <AnimationOnScroll animateIn="animate__fadeInDown">
-      <section className="contact__container">
+      <section className="contact__container" id="contact">
         <h1 className="contact__title--small">Contact</h1>
         <h2 className="contact__title--big">Get In Touch</h2>
         <p className="contact__text">

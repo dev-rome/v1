@@ -8,22 +8,22 @@ const NavBar = () => {
       <img className="nav__logo" src={Logo} alt="Jerome Haynes Logo" />
       <ul className="nav__menu">
         <li className="nav__item">
-          <a className="nav__link" href="/home">
+          <a className="nav__link" href="#home">
             Home
           </a>
         </li>
         <li className="nav__item">
-          <a className="nav__link" href="/about">
+          <a className="nav__link" href="#about">
             About
           </a>
         </li>
         <li className="nav__item">
-          <a className="nav__link" href="/work">
-            Work
+          <a className="nav__link" href="#portfolio">
+            Portfolio
           </a>
         </li>
         <li className="nav__item">
-          <a className="nav__link" href="/contact">
+          <a className="nav__link" href="#contact">
             Contact
           </a>
         </li>

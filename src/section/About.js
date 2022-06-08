@@ -6,7 +6,7 @@ import Logo from "../img/logo.svg";
 const About = () => {
   return (
     <AnimationOnScroll animateIn="animate__fadeInDown">
-      <section className="about__container">
+      <section className="about__container" id="about">
         <h1 className="about__title">About Me</h1>
         <div className="about__content">
           <div className="about__left">

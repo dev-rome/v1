@@ -5,7 +5,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 const Portfolio = () => {
   return (
     <AnimationOnScroll animateIn="animate__fadeInDown">
-      <section className="portfolio__container">
+      <section className="portfolio__container" id="portfolio">
         <h1 className="portfolio__title--small">Portfolio</h1>
         <ul className="portfolio__list--grid">
           <li className="portfolio__item">
