@@ -1,4 +1,4 @@
-.nav {
+.nav__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,4 +28,43 @@
 
 .nav__link {
   color: var(--white);
+}
+
+.nav__link--pink:hover {
+  color: var(--pink);
+}
+
+@media (min-width: 768px) {
+  .nav__container-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav__container {
+    display: none;
+  }
+
+  .nav__container-mobile {
+    padding: 1rem;
+    border: 1px solid var(--pink);
+  }
+
+  .nav__menu-mobile {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .nav__link-mobile {
+    color: var(--white);
+  }
+
+  .nav__link-mobile:hover {
+    color: var(--pink);
+  }
+
+  .nav__icon-mobile:hover {
+    animation: wobble 1s;
+  }
 }
