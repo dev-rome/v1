@@ -42,6 +42,10 @@
 }
 
 @media (max-width: 768px) {
+  .contact__container {
+    padding-bottom: 3rem;
+  }
+
     .contact__title--big {
         font-size: 2rem;
       }

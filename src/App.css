@@ -41,6 +41,6 @@ footer {
 
 @media (max-width: 1024px) {
   section {
-    padding: 5rem 0 3rem;
+    padding: 5rem 0 0;
   }
 }
