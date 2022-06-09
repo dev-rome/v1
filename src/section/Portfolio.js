@@ -89,14 +89,14 @@ const Portfolio = () => {
             <header>
               <div className="portfolio--top">
                 <a
-                  href="https://github.com/dev-rome"
+                  href="https://github.com/dev-rome/Tenant-Estate"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="fab fa-github portfolio__github"></i>
                 </a>
                 <a
-                  href="https://github.com/dev-rome"
+                  href="https://enigmatic-anchorage-66839.herokuapp.com/buy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
