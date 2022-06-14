@@ -24,7 +24,7 @@ const NavBar = () => {
             </a>
           </li>
           <li className="nav__item">
-            <a className="nav__link" href="#contact">
+            <a className="nav__link nav__link-contact" href="#contact">
               Contact
             </a>
           </li>
@@ -35,22 +35,22 @@ const NavBar = () => {
         <ul className="nav__menu-mobile">
           <li className="nav__item-mobile">
             <a className="nav__link-mobile" href="#home">
-            <i class="fa-solid fa-house nav__icon-mobile"></i>
+              <i class="fa-solid fa-house nav__icon-mobile"></i>
             </a>
           </li>
           <li className="nav__item-mobile">
             <a className="nav__link-mobile" href="#about">
-            <i class="fa-solid fa-user nav__icon-mobile"></i>
+              <i class="fa-solid fa-user nav__icon-mobile"></i>
             </a>
           </li>
           <li className="nav__item-mobile">
             <a className="nav__link-mobile" href="#portfolio">
-            <i class="fa-solid fa-briefcase nav__icon-mobile"></i>
+              <i class="fa-solid fa-briefcase nav__icon-mobile"></i>
             </a>
           </li>
           <li className="nav__item-mobile">
             <a className="nav__link-mobile" href="#contact">
-            <i class="fa-solid fa-message nav__icon-mobile"></i>
+              <i class="fa-solid fa-message nav__icon-mobile"></i>
             </a>
           </li>
         </ul>

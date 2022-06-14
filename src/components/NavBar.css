@@ -15,23 +15,23 @@
   gap: var(--gap-sm);
 }
 
-.nav__item:last-of-type {
-  padding: 0.5rem 1rem;
-  border: var(--border);
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-}
-
-.nav__item:last-of-type:hover {
-  background: var(--pink);
-}
-
 .nav__link {
   color: var(--white);
 }
 
 .nav__link--pink:hover {
   color: var(--pink);
+}
+
+.nav__link-contact {
+  padding: 0.5rem 1rem;
+  border: var(--border);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.nav__link-contact:hover {
+  background: var(--pink);
 }
 
 @media (min-width: 768px) {
