@@ -8,7 +8,7 @@ const HeroSection = () => {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
-      strings: ["Front-End", "Full-Stack", "Freelance"],
+      strings: ["Full-Stack", "Freelance"],
       typeSpeed: 50,
       backSpeed: 50,
       backDelay: 1500,
