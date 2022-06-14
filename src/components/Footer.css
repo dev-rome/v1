@@ -1,13 +1,13 @@
 .footer {
     display: flex;
-    gap: 1rem;
+    gap: var(--gap-xs);
     padding: 1rem 0 1rem 2rem;
-    border-top: 1px solid var(--pink);
+    border-top: var(--border);
 }
 
 .footer__social {
     display: flex;
-    gap: .5rem;
+    gap: var(--gap-xxs);
 }
 
 .footer__social-link {

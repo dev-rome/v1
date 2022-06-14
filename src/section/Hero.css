@@ -5,12 +5,12 @@
 }
 
 .hero__title--small {
-    font-size: 1rem;
+    font-size: var(--font-sm);
     color: var(--pink);
 }
 
 .hero__title--big {
-    font-size: 3rem;
+    font-size: var(--font-xxl);
 }
 
 .typed-cursor, span {
@@ -25,11 +25,11 @@
 
 .hero__btn {
     display: flex;
-    gap: 1rem;
+    gap:  var(--gap-xs);
 }
 
 .hero__btn-social {
-    border: 1px solid var(--pink);
+    border: var(--border);
     padding: 0.5rem 1rem;
     color: var(--white);
     transition: all 0.3s ease-in;
@@ -45,8 +45,7 @@
 }
 
 @media (max-width: 768px) {
-
     .hero__title--big {
-        font-size: 1.5rem;
+        font-size: var(--font-lg);
     }
 }

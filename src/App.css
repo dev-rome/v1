@@ -1,7 +1,22 @@
 :root {
   --black: #212529;
+  --grey: #495057;
   --white: #f8f9fa; 
   --pink: #ffa8a8;
+  --font: 'Open Sans', sans-serif;
+  --font-xxs: .8rem;
+  --font-xs: .9rem;
+  --font-sm: 1rem;
+  --font-md: 1.063rem;
+  --font-lg: 1.5rem;
+  --font-xlg: 2rem;
+  --font-xxl: 3rem;
+  --border: 1px solid var(--pink);
+  --gap-xxs: .5rem;
+  --gap-xs: 1rem;
+  --gap-sm: 2rem;
+  --gap-md: 3rem;
+  --gap-lg: 5rem;
 }
 
 *, *::before, *::after {
@@ -22,7 +37,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--font);
   background-color: var(--black);
   color: var(--white);
 }

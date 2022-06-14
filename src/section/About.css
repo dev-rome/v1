@@ -1,15 +1,11 @@
-.about__container {
-    animation-delay: 1.5s;
-}
-
 .about__content {
     display: grid;
     grid-template-columns: 3fr 2fr;
-    gap: 5rem;
+    gap: var(--gap-lg);
 }
 
 .about__title, .about__tech-title {
-    font-size: 1rem;
+    font-size: var(--font-sm);
     color: var(--pink);
     margin-bottom: .5rem;
 }
@@ -25,7 +21,7 @@
 }
 
 .about__tech-item {
-    font-size: .9rem;
+    font-size: var( --font-xs);
 }
 
 .about__tech-item i {

@@ -12,12 +12,12 @@
 .nav__menu {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: var(--gap-sm);
 }
 
 .nav__item:last-of-type {
   padding: 0.5rem 1rem;
-  border: 1px solid var(--pink);
+  border: var(--border);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -47,13 +47,13 @@
 
   .nav__container-mobile {
     padding: 1rem;
-    border: 1px solid var(--pink);
+    border: var(--border)
   }
 
   .nav__menu-mobile {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: var(--gap-md);
   }
 
   .nav__link-mobile {
