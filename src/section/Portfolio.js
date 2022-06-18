@@ -12,7 +12,14 @@ const Portfolio = () => {
             <header>
               <div className="portfolio--top">
                 <a
-                  href="https://eliteeyewebdesign.com/"
+                  href="https://github.com/dev-rome/Tenant-Estate"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-github portfolio__github"></i>
+                </a>
+                <a
+                  href="https://enigmatic-anchorage-66839.herokuapp.com/buy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -21,24 +28,25 @@ const Portfolio = () => {
               </div>
               <h3 className="portfolio__item--title">
                 <a
-                  href="https://eliteeyewebdesign.com/"
+                  href="https://enigmatic-anchorage-66839.herokuapp.com/buy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="portfolio__item--white"
                 >
-                  Elite Eye Web Design
+                  Tenant-Estate
                 </a>
               </h3>
               <p className="portfolio__text">
-                Web design company that specializes in creating beautiful,
-                functional websites for small to large businesses.
+                Tenant-Estate is a home/apartment listing app that allows user
+                to rent or sell their property.
               </p>
             </header>
             <footer>
               <ul className="portfolio__tech">
-                <li className="portfolio__tech-item">WordPress</li>
+                <li className="portfolio__tech-item">EJS</li>
                 <li className="portfolio__tech-item">JavaScript</li>
                 <li className="portfolio__tech-item">HTML/CSS</li>
+                <li className="portfolio__tech-item">BootStrap</li>
               </ul>
             </footer>
           </li>
@@ -89,14 +97,7 @@ const Portfolio = () => {
             <header>
               <div className="portfolio--top">
                 <a
-                  href="https://github.com/dev-rome/Tenant-Estate"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-github portfolio__github"></i>
-                </a>
-                <a
-                  href="https://enigmatic-anchorage-66839.herokuapp.com/buy"
+                  href="https://eliteeyewebdesign.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -105,25 +106,24 @@ const Portfolio = () => {
               </div>
               <h3 className="portfolio__item--title">
                 <a
-                  href="https://enigmatic-anchorage-66839.herokuapp.com/buy"
+                  href="https://eliteeyewebdesign.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="portfolio__item--white"
                 >
-                  Tenant-Estate
+                  Elite Eye Web Design
                 </a>
               </h3>
               <p className="portfolio__text">
-                Tenant-Estate is a home/apartment listing app that allows user
-                to rent or sell their property.
+                Web design company that specializes in creating beautiful,
+                functional websites for small to large businesses.
               </p>
             </header>
             <footer>
               <ul className="portfolio__tech">
-                <li className="portfolio__tech-item">EJS</li>
+                <li className="portfolio__tech-item">WordPress</li>
                 <li className="portfolio__tech-item">JavaScript</li>
                 <li className="portfolio__tech-item">HTML/CSS</li>
-                <li className="portfolio__tech-item">BootStrap</li>
               </ul>
             </footer>
           </li>
