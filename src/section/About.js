@@ -11,14 +11,16 @@ const About = () => {
         <div className="about__content">
           <div className="about__left">
             <p className="about__text">
-              Hello! my name is Jerome, a software engineer located in New York.
-              My passion for web development sparked in 2018 when I completed my
+              Hello! my name is Jerome, a software engineer in New York. My
+              passion for web development sparked in 2018 when I completed my
               first course with Codecademy Programming with Python. Completing
               that course sparked a passion for learning and growth. I also
               finished Udacity course Intro to Programming Nanodegree, three
               Udemy courses such as The Web Developer Bootcamp, Build Responsive
               Real-World Websites with HTML and CSS, and Modern React with
-              Redux.
+              Redux. In the future, I see myself as a full-stack engineer
+              supporting clients and building products that will give back to
+              communities.
             </p>
 
             <p className="about__text">
