@@ -1,9 +1,77 @@
 import React from "react";
+import AboutList from "./AboutList";
 import "./About.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import Logo from "../img/logo.svg";
 
 const About = () => {
+  const tech = [
+    {
+      id: 1,
+      tech: "HTML",
+    },
+    {
+      id: 2,
+      tech: "CSS",
+    },
+    {
+      id: 3,
+      tech: "JavaScript",
+    },
+    {
+      id: 4,
+      tech: "React",
+    },
+    {
+      id: 5,
+      tech: "Node",
+    },
+    {
+      id: 6,
+      tech: "Express",
+    },
+    {
+      id: 7,
+      tech: "MongoDB",
+    },
+    {
+      id: 8,
+      tech: "MySQL",
+    },
+    {
+      id: 9,
+      tech: "PostgreSQL",
+    },
+    {
+      id: 10,
+      tech: "BootStrap",
+    },
+    {
+      id: 11,
+      tech: "Python",
+    },
+    {
+      id: 12,
+      tech: "Django",
+    },
+    {
+      id: 13,
+      tech: "GitHub",
+    },
+    {
+      id: 14,
+      tech: "Heroku",
+    },
+    {
+      id: 15,
+      tech: "Postman",
+    },
+    {
+      id: 16,
+      tech: "Figma",
+    },
+  ];
+
   return (
     <AnimationOnScroll animateIn="animate__fadeInDown">
       <section className="about__container" id="about">
@@ -34,42 +102,9 @@ const About = () => {
             <div className="about__tech">
               <h2 className="about__tech-title">Tech</h2>
               <ul className="about__tech-list">
-                <li className="about__tech-item">
-                  <i className="fa-solid fa-angle-right"></i>
-                  React
-                </li>
-                <li className="about__tech-item">
-                  <i className="fa-solid fa-angle-right"></i>
-                  Python
-                </li>
-                <li className="about__tech-item">
-                  <i className="fa-solid fa-angle-right"></i>
-                  Node
-                </li>
-                <li className="about__tech-item">
-                  <i className="fa-solid fa-angle-right"></i>
-                  Express
-                </li>
-                <li className="about__tech-item">
-                  <i className="fa-solid fa-angle-right"></i>
-                  MongoDB
-                </li>
-                <li className="about__tech-item">
-                  <i className="fa-solid fa-angle-right"></i>
-                  HTML
-                </li>
-                <li className="about__tech-item">
-                  <i className="fa-solid fa-angle-right"></i>
-                  CSS
-                </li>
-                <li className="about__tech-item">
-                  <i className="fa-solid fa-angle-right"></i>
-                  JavaScript
-                </li>
-                <li className="about__tech-item">
-                  <i className="fa-solid fa-angle-right"></i>
-                  WordPress
-                </li>
+                {tech.map((item) => {
+                  return <AboutList id={item.id} tech={item.tech}  />;
+                })}
               </ul>
             </div>
           </div>
