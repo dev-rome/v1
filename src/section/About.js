@@ -103,7 +103,7 @@ const About = () => {
               <h2 className="about__tech-title">Tech</h2>
               <ul className="about__tech-list">
                 {tech.map((item) => {
-                  return <AboutList id={item.id} tech={item.tech}  />;
+                  return <AboutList id={item.id} tech={item.tech} />;
                 })}
               </ul>
             </div>
