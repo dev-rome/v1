@@ -1,0 +1,11 @@
+.portfolio__item-two {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("../img/Screenshot\ 2022-06-25\ at\ 12-14-52\ Video\ Game\ Trivia.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

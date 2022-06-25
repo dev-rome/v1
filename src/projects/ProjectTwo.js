@@ -1,8 +1,9 @@
 import React from "react";
+import "./ProjectTwo.css";
 
 const ProjectTwo = () => {
   return (
-    <li className="portfolio__item">
+    <li className="portfolio__item portfolio__item-two">
       <header>
         <div className="portfolio--top">
           <a
