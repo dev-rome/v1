@@ -2,7 +2,7 @@
 
 The first iteration of [jeromehaynes](https://www.jeromehaynes.com/) built with [React](https://reactjs.org/) and hosted with [Netlify](https://www.netlify.com/).
 
-![Screenshot 2022-06-26 at 11-15-23 Jerome Haynes](https://user-images.githubusercontent.com/84602714/175821814-c0f605c3-7d35-4684-a870-50e6aaa26c7a.png)
+![Screenshot 2022-06-26 at 12-31-14 Jerome Haynes](https://user-images.githubusercontent.com/84602714/175824322-acc2122b-a20f-4109-a28d-5aaa9ff57887.png)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 
