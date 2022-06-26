@@ -4,8 +4,8 @@ The first iteration of [jeromehaynes](https://www.jeromehaynes.com/) built with 
 
 ![Screenshot 2022-06-26 at 12-31-14 Jerome Haynes](https://user-images.githubusercontent.com/84602714/175824322-acc2122b-a20f-4109-a28d-5aaa9ff57887.png)
 ![Screenshot 2022-06-26 at 12-33-26 Jerome Haynes](https://user-images.githubusercontent.com/84602714/175824438-ac36adbd-b8e0-4da6-8df2-faa7aa9f64ae.png)
-![Screenshot 2022-06-26 at 11-15-23 Jerome Haynes](https://user-images.githubusercontent.com/84602714/175824441-4da0598d-0863-4740-91fe-6854619ce04c.png)
-![Screenshot 2022-06-26 at 12-31-14 Jerome Haynes](https://user-images.githubusercontent.com/84602714/175824449-1400efed-603b-448b-8d54-e912a7011394.png)
+![Screenshot 2022-06-26 at 12-33-37 Jerome Haynes](https://user-images.githubusercontent.com/84602714/175824507-957ae039-a22f-4492-a30f-0f76006f3d29.png)
+![Screenshot 2022-06-26 at 12-33-46 Jerome Haynes](https://user-images.githubusercontent.com/84602714/175824505-914634a4-7785-428b-bd1f-3bc6b7e9a337.png)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 
