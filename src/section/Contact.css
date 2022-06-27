@@ -21,8 +21,7 @@
 }
 
 .contact__btn-container {
-  display: flex;
-  gap: var(--gap-xs);
+  margin-top: .5rem
 }
 
 .contact__btn {
