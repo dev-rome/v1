@@ -21,15 +21,6 @@ const Contact = () => {
             <i className="fa-solid fa-envelope contact__btn-icon"></i>
             Contact
           </a>
-          <a
-            className="contact__btn"
-            href="https://eliteeyewebdesign.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-solid fa-link contact__btn-icon"></i>
-            Website
-          </a>
         </div>
       </section>
     </AnimationOnScroll>
