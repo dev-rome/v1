@@ -28,10 +28,8 @@ const HeroSection = () => {
           I'm a <span ref={typedRef}></span>Developer
         </h2>
         <p className="hero__text">
-          A Software Engineer who can build a web presence from the ground up
-          using current best practices. Passionate learner, hard worker, and
-          team player who is proficient in an array of scripting languages and
-          multimedia web tools.
+          Software Engineer with the ability to build a web presence from the ground up using current best practices. 
+          Passionate learner, hard worker, and team player proficient in various scripting languages.
         </p>
         <div className="hero__btn">
           <a
